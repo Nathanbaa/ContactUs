@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2EDE6 !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display&display=swap');
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 100px !important;
+    color: #002454;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 32px !important;
+    color: #002454;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px !important;
+    color: #002454;
+}
+
+.btn-submit {
+    background-color: #00054B;
+    color: #F2EDE6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    width: 73%;
+    padding: 10px 0;
+    border: 2px solid #F2EDE6;
+    border-radius: 33px;
+    transition: all;
+}
+
+.btn-submit:hover {
+    transition: 0.5s;
+    background-color: #F2EDE6;
+    color: #00054B;
+    border: 2px solid #00054B;
+}
+
+#image {
+    width: 85%;
+    height: 95%;
+    object-fit: cover;
+    border-top-right-radius: 33px;
+    border-bottom-left-radius: 33px;
+}
+
+.contact {
+    margin: 10% auto;
+}
+
+form {
+    margin: 60px 0;
+}
+
+#formulaire {
+    position: relative;
+}
+
+form div {
+    margin: 40px 0;
+}
+
+.contact-form-text {
+    color: #00054B;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 0;
+    margin-right: 0;
+    line-height: 22px;
+    background-color: #F2EDE6 !important;
+    padding: 13px 13px 13px 13px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 2px solid #00054B;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.contact-form-text:focus {
+    color: #F2EDE6;
+    transition: .4s ease;
+    outline: none;
+    border-bottom: 2px solid #00054B;
+    padding: 13px 13px 13px 13px;
+}
+
+form div textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: none !important;
+    border: 2px solid #00054B !important;
+}
+
+form div .contact-form-input {
+    width: 25px;
+    background-color: #00054B !important;
+}
+
+
+#informations {
+    margin-top: 140px;
+}
+
+.information {
+    padding: 20px 0;
+}
+
+.list-inline {
+    margin-top: 60%;
+}
+
+.list-inline-item {
+    padding: 0 10px;
+}
+
+.list-inline-item a img {
+    width: 32px;
+}
+
+.list-inline>.list-inline-item:nth-child(3) img {
+    width: 40px;
+}
+
+/* -------------------------
+        Responvive
+---------------------------*/
+
+/* --Smarthphone---------------------------- */
+@media only screen and (max-width: 767px) {
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        overflow-y: visible;
+        width: 100vw;
+        height: 100vh;
+        background-color: #F2EDE6 !important;
+    }
+    
+    #image {
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-top-right-radius: 33px;
+        border-bottom-left-radius: 33px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 60px !important;
+        color: #002454;
+        margin-top: -300px !important;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 28px !important;
+        color: #002454;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 20px !important;
+        color: #002454;
+    }
+
+    .btn-submit {
+        background-color: #00054B;
+        color: #F2EDE6;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        width: 100%;
+        margin-top: -150px;
+        padding: 20px 0;
+        border: 2px solid #F2EDE6;
+        border-radius: 33px;
+        transition: all;
+    }
+
+    #informations {
+        margin-top: 20px;
+        margin-bottom: -140px;
+        text-align: center;
+    }
+
+    .information {
+        padding: 20px 0;
+    }
+
+    .list-inline {
+        margin-top: 60%;
+        text-align: center;
+    }
+
+    .list-inline-item {
+        padding: 0 10px;
+    }
+
+    .list-inline-item a img {
+        width: 32px;
+    }
+
+    .list-inline>.list-inline-item:nth-child(3) img {
+        width: 40px;
+    }
+}
+
+/* Tablette ----------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        overflow-y: visible;
+        width: 100vw;
+        height: 100vh;
+        background-color: #F2EDE6 !important;
+    }
+    
+    #image {
+        width: 100%;
+        height: 30%;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        font-size: 80px !important;
+        color: #002454;
+        margin-top: -680px !important;
+    }
+
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 32px !important;
+        color: #002454;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 20px !important;
+        color: #002454;
+    }
+
+    .btn-submit {
+        background-color: #00054B;
+        color: #F2EDE6;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        width: 100%;
+        margin-top: -150px;
+        padding: 20px 0;
+        border: 2px solid #F2EDE6;
+        border-radius: 33px;
+        transition: all;
+    }
+
+    #informations {
+        margin-top: -440px;
+        margin-bottom: -140px;
+        text-align: center;
+    }
+
+    .information {
+        padding: 20px 0;
+    }
+
+    .list-inline {
+        margin-top: 40%;
+        text-align: center;
+    }
+
+    .list-inline-item {
+        padding: 0 10px;
+    }
+
+    .list-inline-item a img {
+        width: 32px;
+    }
+
+    .list-inline>.list-inline-item:nth-child(3) img {
+        width: 40px;
+    }
+}

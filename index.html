@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Personal style -->
+    <link rel="stylesheet" href="/public/assets/css/style.css">
+    <!-- Bootstrap style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+<!-- https://www.figma.com/file/PfZUz8oMXQF6jc56V8MgWb/contact-us-%7C-%23dailyui-(Community)?node-id=1%3A2&t=poUVXnx4VhJ7TVvB-0 -->
+    <div class="container contact">
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <img id="image" src="/public/assets/img/michal-biernat-h0xEUQXzU38-unsplash.jpg" alt="">
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12">
+                <h1>Contact Us</h1>
+
+                <div id="formulaire">
+
+                    <form id="contact-forme" class="contact-form" action="" method="post" role="form">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <input type="text" id="fullname" name="fullname" class="contact-form-text"
+                                    placeholder="Full name*">
+                                <input type="email" id="email" name="email" class="contact-form-text"
+                                    placeholder="E-mail*">
+                                <textarea id="message" name="message" class="contact-form-text" style="width: 100%;"
+                                    placeholder="Message*"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" class="btn-submit" value="Contact Us">
+                    </form>
+                </div>
+
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12">
+
+                <div id="informations">
+                    <div class="information">
+                        <h3>Contact</h3>
+                        <p>hi@green.com</p>
+                    </div>
+                    <div class="information">
+                        <h3>Based in</h3>
+                        <p>New york, California, Ohio</p>
+                    </div>
+                </div>
+
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><img src="/public/assets/img/facebook.png" alt=""></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="/public/assets/img/instagram.png" alt=""></a></li>
+                    <li class="list-inline-item"><a href="#"><img src="/public/assets/img/twitter.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
